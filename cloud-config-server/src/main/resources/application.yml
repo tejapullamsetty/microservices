@@ -1,0 +1,6 @@
+server:
+  port: 8899
+  
+spring:  application:    name: CONFIG-SERVER
+  cloud:    config:      server:        git:          uri: https://github.com/tejapullamsetty/config-server.git
+          clone-on-start: true            
